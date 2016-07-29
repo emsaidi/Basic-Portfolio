@@ -1,0 +1,67 @@
+body {
+	margin: auto;
+	padding: 0px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-image: url("../images/cheap_diagonal_fabric.png");
+	width: 960px;
+	color: #777777;
+}
+
+nav {
+	display: inline-block;
+}
+
+h2 {
+	margin: 30px;
+	padding-bottom: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 28px;
+	font-weight: bold;
+	color: #4aaaa5;
+	border-bottom: 3px solid #dddddd;
+
+}
+
+h3 {
+	padding: 30px 0px;
+	color: #4aaaa5;
+	padding-bottom: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom: 3px solid #dddddd;
+
+}
+
+
+.about-me {
+	background-color: white;
+	overflow: auto;
+	width: 650px;
+	float:left;
+	padding: 0px 0px 30px 0px;
+}
+
+#bio-image {
+	width: 200px;
+	float: left;
+	padding: 0px 30px 30px 30px;
+}
+
+.bio {
+	padding: 0px 30px 0px 30px;
+	line-height: 200%;
+
+}
+
+.sidebar {
+	width: 210px;
+	padding: 0px 30px 30px 30px;
+	background-color: white;
+	float:right;
+}
+
+.contact-me-thumbnails {
+	width: 60px;
+	padding: 0px 30px 0px 30px;
+}
