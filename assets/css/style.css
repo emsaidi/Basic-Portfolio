@@ -7,13 +7,11 @@ html{
 }
 
 body {
-	height: 1005;
 	margin: auto;
 	padding: 0px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	background-color: #ffffff;
 	background-image: url("../images/cheap_diagonal_fabric.png");
-	width: 960px;
 	color: #777777;
 }
 
@@ -21,11 +19,12 @@ body {
 	min-height: 100%
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -75px;
+	margin: 0 auto -91px;
+	width: 960px;
 }
 
 .footer, .push {
-	height: 75px;
+	height: 91px;
 	clear: both;
 	background-color: #666666;
 }
@@ -65,7 +64,7 @@ header{
 
 }
 
-ul {
+#nav-buttons ul {
 	list-style-type:none;
 	display: inline-block;
 	color: white;
@@ -75,16 +74,16 @@ ul {
 
 }
 
-li {
+#nav-buttons li {
 	float: right;
 	border-left: 1px solid #dddddd;
 }
 
-li:last-child {
+#nav-buttons ul:last-child {
 	border-left: none;
 }
 
-li a {
+#nav-buttons li a {
 	display: block;
 	text-align; center;
 	padding: 14px 16px;
@@ -92,16 +91,14 @@ li a {
 	color: white;
 }
 
-li a:visited {
+#nav-buttons li a:visited {
 	color: #777777;
 }
 
-li a:hover {
+#nav-buttons li a:hover {
 	background-color: #4aaaa5;
 	color: white;
 }
-
-
 
 .logo {
 	padding: 30px 30px;
@@ -135,8 +132,9 @@ li a:hover {
 
 #bio-image {
 	width: 200px;
+	height: auto;
 	float: left;
-	padding: 0px 30px 30px 30px;
+	padding: 0px 30px 0px 30px;
 }
 
 .bio {
@@ -226,27 +224,33 @@ img {
 	float:right;
 }
 
-.contact-me {
+#contact-me ul {
+	display: block;
 	list-style-type:none;
 	padding: 30px 0px;
+
+	overflow: hidden;
 }
 
-.li-contact-me {
+#contact-me li {
 	border:none;
+}
+
+#contact-me li a {
+	padding: 0px 10px 0px 0px;
+	float:right;
+}
+
+#contact-me-right li a {
+	padding: 0px 0px 0px 0px;
+	float:right;
 }
 
 .contact-me-thumbnail {
 	width: 60px;
 	height: 60px;
-	border: none;
-	padding: 0px 15px 0px 0px;
 }
 
-.contact-me-thumbnail-right {
-	width: 60px;
-	height: 60px;
-	border: none;
-}
 
 .p-footer {
 	color: #dddddd;
